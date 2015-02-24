@@ -1,0 +1,114 @@
+body {
+  font-family: "trebuchet MS", Tahoma, verdana;
+  width: 960px;
+  background-color: white;
+  color: black;
+	font-size: 16px;
+  margin: 10px 10px 10px 10px;
+}
+
+.contact-block {
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 900px;
+  height: 205px;
+  padding: 10px 10px 10px 10px;
+  position: relative;
+  background-color: #00ff00);
+  background-image: -webkit-linear-gradient(#ffffff,#00e000);
+}
+
+img.grasshopper {
+  float: left;
+  height: 216px;
+  width: 288px;
+  margin-left: 15px;
+  margin-top: 15px;
+  -webkit-box-shadow: 5px 5px 5px 5px #777777;
+}
+
+.contact-text {
+  float: left;
+  padding-left: 30px;
+}
+
+h1 {
+  color: black;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 0px;
+ }
+
+.blocks-left{
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 25px;
+  width: 900px; 
+}
+
+.blocks-left p {
+  margin-top: 15px;
+}
+
+h2 {
+  margin-left: 0px;
+  margin-top: 20px; 
+  margin-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 900px;
+  background-color: #00ff00;
+  background-image: -webkit-linear-gradient(#ffffff,#00ff00);
+}
+
+h2.profile {
+  margin-top: 50px;
+}
+
+.slight-right {
+  margin: 0px 0px 0px 10px;
+}
+
+a:link {
+  color: red;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: maroon;
+}
+
+.twocolumns-wrapper {
+  height: 100px;
+  width: 900px;
+  padding: 0px;
+  margin: 0px;  
+}
+
+.twocolumns {
+  width: 400px;
+  float: left;
+  margin: 0px;
+  padding: 0px;}
+
+h3 {
+  margin-left: 10px;
+}
+
+h4 {
+  margin-top: -5px;
+  margin-left: 10px;
+}
+
+ul {
+  margin-top: 15px;
+}
+
+li.twocolumns {
+  margin: 0px; 
+}
+
+.job-duties {
+  margin: 20px 10px 10px 10px;
+}
