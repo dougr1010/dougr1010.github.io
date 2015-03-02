@@ -15,7 +15,7 @@ body {
   padding: 10px 10px 10px 10px;
   position: relative;
   background-color: #00ff00);
-  background-image: -webkit-linear-gradient(#ffffff,#00e000);
+  background-image: -webkit-linear-gradient(#ffffff,#00d000);
 }
 
 img.grasshopper {
@@ -58,7 +58,7 @@ h2 {
   padding-right: 10px;
   width: 900px;
   background-color: #00ff00;
-  background-image: -webkit-linear-gradient(#ffffff,#00ff00);
+  background-image: -webkit-linear-gradient(#ffffff,#00d000);
 }
 
 h2.profile {
