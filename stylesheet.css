@@ -15,16 +15,24 @@ body {
   padding: 10px 10px 10px 10px;
   position: relative;
   background-color: #00ff00);
-  background-image: -webkit-linear-gradient(#ffffff,#00d000);
+  background: linear-gradient(to bottom, #ffffff,#00d000);
+  /*background-image: -webkit-linear-gradient(#ffffff,#00d000);*/
+  border-bottom: 1px solid black;
 }
 
+figure {
+  margin-top: 0px;
+  margin-left: 0px;
+}
 img.grasshopper {
   float: left;
   height: 216px;
   width: 288px;
   margin-left: 15px;
   margin-top: 15px;
-  -webkit-box-shadow: 5px 5px 5px 5px #777777;
+  border: 1px solid #000000;
+  box-shadow: 5px 5px 5px 5px #777777;
+  /*-webkit-box-shadow: 5px 5px 5px 5px #777777;*/
 }
 
 .contact-text {
@@ -37,6 +45,7 @@ h1 {
   font-weight: bold;
   text-align: left;
   margin-bottom: 0px;
+  font-size: 36px;
  }
 
 .blocks-left{
@@ -58,7 +67,9 @@ h2 {
   padding-right: 10px;
   width: 900px;
   background-color: #00ff00;
-  background-image: -webkit-linear-gradient(#ffffff,#00d000);
+  background: linear-gradient(to bottom, #ffffff,#00d000);
+  /*  background-image: -webkit-linear-gradient(#ffffff,#00d000);*/
+  border-bottom: 1px solid black;
 }
 
 h2.profile {
@@ -69,15 +80,28 @@ h2.profile {
   margin: 0px 0px 0px 10px;
 }
 
+a {
+  transition: all 0.5s ease-in-out;
+}
+
 a:link {
   color: red;
-}
-a:hover {
+  background-color: white;
   text-decoration: underline;
 }
-a:visited {
+
+a:hover {
   color: maroon;
+  background-color: #c0c0c0;
+  text-decoration: none;
 }
+
+a:visited {
+  color: black;
+  background-color: #e0e0e0;
+  text-decoration: none;
+}
+
 
 .twocolumns-wrapper {
   height: 100px;
@@ -87,10 +111,10 @@ a:visited {
 }
 
 .twocolumns {
-  width: 400px;
+  width: 430px;
   float: left;
   margin: 0px;
-  padding: 0px;}
+  padding: 10px;}
 
 h3 {
   margin-left: 10px;
